@@ -1,0 +1,60 @@
+h1,
+h2,
+p,
+input,
+label,
+span {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  background-color: #fafafa;
+  padding: 0 15px;
+}
+h1 {
+  margin-bottom: 0;
+}
+p {
+  max-width: 500px;
+}
+.name {
+  margin: 5px 0;
+  font-size: 0.8rem;
+}
+.description {
+  margin-bottom: 40px;
+  line-height: 1.2rem;
+}
+input {
+  display: flex;
+  flex-direction: column;
+}
+form {
+  margin-right: 50px;
+}
+label {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+label span {
+  width: 90px;
+}
+input[type='text'] {
+  margin-left: 30px;
+  height: 15px;
+  width: 60px;
+  background-color: #f5f5f5;
+}
+.wrap {
+  display: flex;
+}
+.colorRGB {
+  height: 89px;
+  width: 89px;
+  border: 1px solid black;
+}
+.preview {
+  text-align: center;
+  font-size: 0.7rem;
+  margin-top: 5px;
+}

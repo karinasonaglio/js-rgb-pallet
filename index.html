@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Visualização de cores RGB</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <h1>Online RGB Colors Tool</h1>
+    <p class="name">By Karina Sonaglio - 19/05/2020</p>
+    <p class="description">
+      This work has been done as the first practical exercise for the Full-Stack
+      Developer Bootcamp from IGTI - Brazil.
+    </p>
+    <div class="wrap">
+      <form>
+        <label
+          ><span>(R) Red</span>
+          <input type="range" min="0" max="255" id="rangeRed" value="0" />
+          <input type="text" id="textRed" readonly value="0" />
+        </label>
+        <label
+          ><span>(G) Green</span>
+          <input type="range" min="0" max="255" id="rangeGreen" value="0" />
+          <input type="text" id="textGreen" readonly value="0" />
+        </label>
+        <label
+          ><span>(B) Blue</span>
+          <input type="range" min="0" max="255" id="rangeBlue" value="0" />
+          <input type="text" id="textBlue" readonly value="0" />
+        </label>
+      </form>
+      <div>
+        <div
+          class="colorRGB"
+          style="background-color: rgb(255, 255, 255);"
+        ></div>
+        <p class="preview">preview</p>
+      </div>
+    </div>
+    <script src="./js/functions.js"></script>
+  </body>
+</html>
